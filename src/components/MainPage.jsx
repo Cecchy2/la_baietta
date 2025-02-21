@@ -1,10 +1,16 @@
+import { Image } from "react-bootstrap";
 import MyNavBar from "./MyNavBar";
 
 const MainPage = () => {
   return (
-    <div className="MainPage">
+    <div>
+      <div className="ImgCarouselWrapper position-absolute">
+        <Image src="/Baietta Web/66D0984E-2D31-4B25-888D-A3C7FC1CBB7E.jpeg" className="ImgCarousel" />
+      </div>
       <MyNavBar />
-      <h1>Main Page</h1>
+      <div>
+        <Image src="/Baietta Web/BAIETTAWHITE-300x300.png" className="baiettaLogo" />
+      </div>
     </div>
   );
 };
