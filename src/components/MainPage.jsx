@@ -1,4 +1,4 @@
-import { Image } from "react-bootstrap";
+import { Button, Image } from "react-bootstrap";
 import MyNavBar from "./MyNavBar";
 import CarouselComp from "./CarouselComp";
 
@@ -9,8 +9,10 @@ const MainPage = () => {
         <CarouselComp />
       </div>
       <MyNavBar />
+
+      <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
       <div>
-        <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
+        <Button className="btnPrenota ">Prenota Ora</Button>
       </div>
     </div>
   );

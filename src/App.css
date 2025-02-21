@@ -74,17 +74,39 @@ body {
 }
 
 .carousel-control-next {
-  right: -45px;
+  right: -4%;
 }
 
 .carousel-control-prev {
-  left: -45px;
+  left: -4%;
 }
 
 .baiettaLogo {
   position: absolute;
-  top: 21%;
+  top: 15%;
   left: 28%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   z-index: 1000;
+  width: 550px;
+}
+@media (max-width: 768px) {
+  .baiettaLogo {
+    width: 80%;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .myNavBar {
+    border-bottom: none;
+  }
+  .carousel-item {
+    position: relative;
+    left: -75%;
+    width: 191%;
+  }
+}
+
+.btnPrenota {
+  z-index: 1000;
+  position: relative;
 }
