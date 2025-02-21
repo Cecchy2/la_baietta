@@ -12,7 +12,7 @@ const MainPage = () => {
 
       <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
       <div>
-        <Button className="btnPrenota ">Prenota Ora</Button>
+        <Button className="btnPrenota ">PRENOTA ORA</Button>
       </div>
     </div>
   );
