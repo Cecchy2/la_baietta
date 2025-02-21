@@ -2,7 +2,7 @@ import { Carousel } from "react-bootstrap";
 
 const CarouselComp = () => {
   return (
-    <Carousel indicators={true} className="custom-carousel">
+    <Carousel indicators={true} fade={true} interval={8000} className="custom-carousel">
       <Carousel.Item>
         <img
           className="d-block w-100 ImgCarousel"
@@ -22,7 +22,7 @@ const CarouselComp = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 ImgCarousel"
-          src="/public/Baietta Web/dji_fly_20231103_103706_0034_1699007652279_photo-1-scaled.jpeg"
+          src="/Baietta Web/dji_fly_20231103_103706_0034_1699007652279_photo-1-scaled.jpeg"
           alt="Thirt slide"
         />
         <Carousel.Caption></Carousel.Caption>
