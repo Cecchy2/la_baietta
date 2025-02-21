@@ -26,6 +26,12 @@ body {
   color: rgb(43, 152, 146) !important;
 }
 
+.navbar-toggler-icon {
+  color: white;
+  filter: invert(1);
+  border: none;
+}
+
 .ImgCarouselWrapper {
   position: relative;
   width: 100%;
