@@ -9,9 +9,9 @@ const MainPage = () => {
         <CarouselComp />
       </div>
       <MyNavBar />
+      <div className="centerContainer">
+        <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
 
-      <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
-      <div>
         <Button className="btnPrenota ">PRENOTA ORA</Button>
       </div>
     </div>
