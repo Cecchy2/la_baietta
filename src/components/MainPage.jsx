@@ -10,7 +10,7 @@ const MainPage = () => {
       </div>
       <MyNavBar />
       <div>
-        <Image src="/Baietta Web/BAIETTAWHITE-300x300.png" className="baiettaLogo" />
+        <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
       </div>
     </div>
   );
