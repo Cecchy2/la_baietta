@@ -1,3 +1,18 @@
+body {
+  font-family: "Metropolis", sans-serif;
+  font-weight: 600;
+}
+.myNavBar {
+  border-bottom: 0.5px solid white;
+}
+
+.myNavLink {
+  color: white;
+}
+.myNavLink:hover {
+  color: rgb(43, 152, 146);
+}
+
 .MainPage {
   background-image: url("../public/Baietta Web/66D0984E-2D31-4B25-888D-A3C7FC1CBB7E.jpeg");
   background-size: cover;
