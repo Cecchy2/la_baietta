@@ -15,7 +15,7 @@ const MyNavBar = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto ms-4 border-start border-1 border-white">
+        <Nav className="me-auto ms-4 navBarBord">
           <Nav.Link href="#home" className="myNavLink ms-4" activeClassName="active">
             HOME
           </Nav.Link>

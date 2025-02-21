@@ -8,6 +8,10 @@ body {
   z-index: 2000;
 }
 
+.navBarBord {
+  border-start: 1px solid #ffffff59;
+}
+
 .myNavLink {
   color: white !important;
   transition: color 0.3s ease-in-out;
@@ -62,10 +66,12 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(255, 255, 255);
+
   border: none;
   margin: 5px;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index: 1000;
 }
 
 .custom-carousel .carousel-indicators .active {
@@ -102,10 +108,26 @@ body {
     left: -75%;
     width: 191%;
   }
+  .baiettaLogo {
+    width: 90%;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+  .navbar-toggler-icon {
+    margin-left: -100px;
+  }
+  .navBarBord {
+    border-start: none;
+  }
 }
 
 .btnPrenota {
   z-index: 1000;
-  margin-top: 20px; /* Distanza dal logo */
+  margin-top: 20px;
   font-size: 1.5rem;
 }
