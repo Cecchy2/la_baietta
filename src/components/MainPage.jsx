@@ -1,11 +1,12 @@
 import { Image } from "react-bootstrap";
 import MyNavBar from "./MyNavBar";
+import CarouselComp from "./CarouselComp";
 
 const MainPage = () => {
   return (
     <div>
       <div className="ImgCarouselWrapper position-absolute">
-        <Image src="/Baietta Web/66D0984E-2D31-4B25-888D-A3C7FC1CBB7E.jpeg" className="ImgCarousel" />
+        <CarouselComp />
       </div>
       <MyNavBar />
       <div>
