@@ -6,6 +6,7 @@ body {
   border-bottom: 1px solid #ffffff59;
   padding: 0;
   z-index: 2000;
+  height: 65px;
 }
 
 .navBarBord {
@@ -32,6 +33,21 @@ body {
   border: none;
 }
 
+.btnNav {
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  background-color: rgb(43, 152, 146);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btnNav:hover {
+  background-color: rgb(54, 190, 183); /* Colore di sfondo al passaggio del mouse */
+}
+
 .ImgCarouselWrapper {
   position: relative;
   width: 100%;
@@ -52,7 +68,7 @@ body {
     transform: scale(1) translateX(0);
   }
   100% {
-    transform: scale(1.2) translateX(-10%);
+    transform: scale(1.2) translateX(-8%);
   }
 }
 

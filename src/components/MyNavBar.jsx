@@ -1,4 +1,4 @@
-import { Nav, Navbar } from "react-bootstrap";
+import { Button, Nav, Navbar } from "react-bootstrap";
 import { PiPhoneCallFill } from "react-icons/pi";
 
 const MyNavBar = () => {
@@ -29,12 +29,13 @@ const MyNavBar = () => {
             CONTATTI
           </Nav.Link>
         </Nav>
-        <Nav className="ms-auto me-5">
+        <Nav className="ms-auto me-2">
           <Nav.Link href="#link" className="myNavLink">
             <PiPhoneCallFill size={20} className="mb-1 me-1" /> 3295536669
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
+      <Button className="btnNav ">PRENOTA ORA</Button>
     </Navbar>
   );
 };
