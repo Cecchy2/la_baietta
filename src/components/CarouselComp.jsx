@@ -7,14 +7,7 @@ const CarouselComp = () => {
         <img className="ImgCarousel" src="/Baietta Web/66D0984E-2D31-4B25-888D-A3C7FC1CBB7E.jpeg" alt="First slide" />
         <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="ImgCarousel"
-          src="/Baietta Web/dji_fly_20231028_104422_0017_1698501002039_photo-scaled.jpeg"
-          alt="Second slide"
-        />
-        <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item>
+
       <Carousel.Item>
         <img
           className="ImgCarousel"
