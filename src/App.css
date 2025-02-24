@@ -28,9 +28,23 @@ body {
 }
 
 .navbar-toggler-icon {
+  width: 1.7em;
   color: white;
   filter: invert(1);
   border: none;
+}
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-collapse.collapse.show {
+  background-color: rgb(20, 22, 39);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .btnNav {
@@ -45,7 +59,21 @@ body {
 }
 
 .btnNav:hover {
-  background-color: rgb(54, 190, 183); /* Colore di sfondo al passaggio del mouse */
+  background-color: red;
+}
+
+.logoBaietta {
+  display: none;
+}
+
+.navbar-collapse.collapse.show .logoBaietta {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navBarBord{
+  display-flex;
+  align-items: center;
 }
 
 .ImgCarouselWrapper {
@@ -129,9 +157,17 @@ body {
   border: none;
   box-shadow: 2px 3px 8px rgb(255, 255, 255);
 }
+
 .btnPrenota:hover {
   background-color: rgb(54, 190, 183);
   color: rgb(253, 253, 253);
+}
+
+.btnPrenota:active {
+  background-color: rgb(43, 152, 146);
+  color: white;
+  box-shadow: 2px 3px 8px rgb(255, 255, 255);
+  transform: none;
 }
 
 @media (max-width: 768px) {
@@ -153,14 +189,17 @@ body {
   .carousel-control-prev {
     display: none;
   }
-  .navbar-toggler-icon {
-    margin-left: -100px;
-  }
+
   .navBarBord {
     border-start: none;
   }
   .btnPrenota {
     width: 40%;
     font-size: 0.9rem;
+  }
+}
+@media (max-width: 992px) {
+  .btnNav {
+    display: none;
   }
 }

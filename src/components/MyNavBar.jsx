@@ -16,7 +16,17 @@ const MyNavBar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto ms-4 navBarBord">
-          <Nav.Link href="#home" className="myNavLink ms-4" activeClassName="active">
+          {" "}
+          <div className="logoBaietta">
+            <img
+              alt=""
+              src="/Baietta Web/BAIETTAWHITE.png"
+              width="200"
+              height="200"
+              className="d-inline-block align-top "
+            />{" "}
+          </div>
+          <Nav.Link href="#home" className="myNavLink " activeClassName="active">
             HOME
           </Nav.Link>
           <Nav.Link href="#link" className="myNavLink" activeClassName="active">

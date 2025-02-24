@@ -11,8 +11,7 @@ const MainPage = () => {
       <MyNavBar />
       <div className="centerContainer">
         <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
-
-        <Button className="btnPrenota ">PRENOTA ORA</Button>
+        <Button className="btnPrenota">PRENOTA ORA</Button>
       </div>
     </div>
   );
