@@ -143,6 +143,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: rgb(242, 242, 244);
 }
 .baiettaLogo {
   z-index: 1000;
@@ -170,6 +171,39 @@ body {
   transform: none;
 }
 
+.mainSection{
+  height: 70vh;
+  background-color: rgb(242, 242, 244);
+}
+.imgClub{
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.textClub{
+  padding:10%
+}
+.btnScopri{
+  z-index: 1000;
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 22px 36px;
+  background-color: rgb(43, 152, 146);
+  border: none;
+  box-shadow: 2px 3px 8px rgb(255, 255, 255);
+  border-radius: 0;
+}
+.textClubH1{
+  color:rgb(43, 152, 146);
+  font-weight: 600;
+}
+.textClubP{
+  color:rgb(99, 92, 129);
+  font-size: 1.2rem;
+}
+
+
+
 @media (max-width: 768px) {
   .myNavBar {
     border-bottom: none;
@@ -196,6 +230,15 @@ body {
   .btnPrenota {
     width: 40%;
     font-size: 0.9rem;
+  }
+
+  .imgClub{
+    position: relative;
+        right: auto;
+        bottom: auto;
+        width: 100% ;
+        height: 300px;
+        margin: 0 ;
   }
 }
 @media (max-width: 992px) {
