@@ -2,6 +2,12 @@ body {
   font-family: "Metropolis", sans-serif;
   font-weight: 600;
 }
+.colorBaietta {
+  color: rgb(43, 152, 146);
+}
+.bgColorBaietta {
+  background-color: rgb(43, 152, 146);
+}
 .myNavBar {
   border-bottom: 1px solid #ffffff59;
   padding: 0;
@@ -11,6 +17,8 @@ body {
 
 .navBarBord {
   border-start: 1px solid #ffffff59;
+  display: flex;
+  align-items: center;
 }
 
 .myNavLink {
@@ -70,10 +78,6 @@ body {
   display: block;
   margin-bottom: 20px;
   text-align: center;
-}
-.navBarBord{
-  display-flex;
-  align-items: center;
 }
 
 .ImgCarouselWrapper {
@@ -142,18 +146,19 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 93vh;
   background-color: rgb(242, 242, 244);
 }
 .baiettaLogo {
   z-index: 1000;
-  margin-top: -150px;
+  margin-top: -40px;
 }
 
 .btnPrenota {
   z-index: 1000;
   margin-top: 20px;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
+
   background-color: rgb(43, 152, 146);
   border: none;
   box-shadow: 2px 3px 8px rgb(255, 255, 255);
@@ -171,19 +176,19 @@ body {
   transform: none;
 }
 
-.mainSection{
+.mainSection {
   height: 70vh;
   background-color: rgb(242, 242, 244);
 }
-.imgClub{
+.imgClub {
   width: 100%;
   height: 80%;
   object-fit: cover;
 }
-.textClub{
-  padding:10%
+.textClub {
+  padding: 10%;
 }
-.btnScopri{
+.btnScopri {
   z-index: 1000;
   margin-top: 20px;
   font-weight: 600;
@@ -193,19 +198,22 @@ body {
   box-shadow: 2px 3px 8px rgb(255, 255, 255);
   border-radius: 0;
 }
-.textClubH1{
-  color:rgb(43, 152, 146);
+.textClubH1 {
+  color: rgb(43, 152, 146);
   font-weight: 600;
 }
-.textClubP{
-  color:rgb(99, 92, 129);
+.textClubP {
+  color: rgb(99, 92, 129);
   font-size: 1.2rem;
 }
-
-.sectionClub{
-  background-color: rgb(242, 242, 244);
-  text-align: center;
-  
+.sectionWave {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  background: url("/public/Baietta Web/wave.svg") no-repeat bottom center;
+  background-size: cover;
+  z-index: 1000;
 }
 
 .marquee {
@@ -218,7 +226,7 @@ body {
 .marquee-content {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 80s linear infinite;
+  animation: marquee 40s linear infinite;
 }
 
 .marquee-item {
@@ -226,6 +234,50 @@ body {
   padding: 0 2rem;
   font-size: 5rem;
   color: #333;
+  font-family: "Chelsea Market", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sectionDownTheWave {
+  position: relative;
+  top: -30vh;
+  display: flex;
+  height: 70vh;
+}
+.fotoTramonto {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100%;
+  padding-inline: 10%;
+}
+
+.sectionDownTheWave Button {
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 22px 36px;
+  background-color: rgb(43, 152, 146);
+  border: none;
+  box-shadow: 2px 3px 8px rgb(255, 255, 255);
+  border-radius: 0;
+}
+.sectionDownTheWave Button:hover {
+  background-color: rgb(54, 190, 183);
+  color: rgb(253, 253, 253);
+}
+
+.sectionSlidingCarousel {
+  margin-top: -250px;
 }
 
 @keyframes marquee {
@@ -236,8 +288,6 @@ body {
     transform: translateX(-50%);
   }
 }
-
-
 
 @media (max-width: 768px) {
   .myNavBar {
@@ -259,25 +309,41 @@ body {
     display: none;
   }
 
-  .navBarBord {
-    border-start: none;
-  }
   .btnPrenota {
     width: 40%;
     font-size: 0.9rem;
   }
 
-  .imgClub{
+  .imgClub {
     position: relative;
-        right: auto;
-        bottom: auto;
-        width: 100% ;
-        height: 300px;
-        margin: 0 ;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+  .sectionSlidingCarousel {
+    margin-top: -110px;
+  }
+  .marquee-item {
+    font-size: 3rem;
   }
 }
 @media (max-width: 992px) {
   .btnNav {
     display: none;
+  }
+  .sectionDownTheWave {
+    flex-direction: column;
+  }
+  .fotoTramonto {
+    width: 100%;
+    height: 50%;
+    object-position: center 80%;
+  }
+  .textContainer {
+    width: 100%;
+
+    padding-inline: 18%;
   }
 }

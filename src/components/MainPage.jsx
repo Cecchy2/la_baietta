@@ -1,21 +1,28 @@
 import { Button, Image } from "react-bootstrap";
 import MyNavBar from "./MyNavBar";
 import CarouselComp from "./CarouselComp";
-import SectionClub from "./SectionClub";
+
+import SectionSlidingCarousel from "./SectionSlidingCarousel";
+import SectionDownTheWave from "./SectionDownTheWave";
+import SectionWave from "./SectionWave";
 
 const MainPage = () => {
   return (
-    <div>
-      <div className="ImgCarouselWrapper position-absolute">
-        <CarouselComp />
+    <>
+      <div>
+        <div className="ImgCarouselWrapper position-absolute">
+          <CarouselComp />
+        </div>
+        <MyNavBar />
+        <div className="centerContainer">
+          <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
+          <Button className="btnPrenota">PRENOTA ORA</Button>
+        </div>
       </div>
-      <MyNavBar />
-      <div className="centerContainer">
-        <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
-        <Button className="btnPrenota">PRENOTA ORA</Button>
-      </div>
-      <SectionClub />
-    </div>
+      <SectionWave />
+      <SectionDownTheWave />
+      <SectionSlidingCarousel />
+    </>
   );
 };
 
