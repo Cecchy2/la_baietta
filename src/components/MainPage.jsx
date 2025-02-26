@@ -6,6 +6,7 @@ import SectionSlidingCarousel from "./SectionSlidingCarousel";
 import SectionDownTheWave from "./SectionDownTheWave";
 import SectionWave from "./SectionWave";
 import SectionCorsi from "./SectionCorsi";
+import SectionNonSoloWake from "./SectionNonSoloWake";
 
 const MainPage = () => {
   return (
@@ -24,6 +25,7 @@ const MainPage = () => {
       <SectionDownTheWave />
       <SectionSlidingCarousel />
       <SectionCorsi />
+      <SectionNonSoloWake />
     </>
   );
 };
