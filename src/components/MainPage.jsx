@@ -1,7 +1,7 @@
 import { Button, Image } from "react-bootstrap";
 import MyNavBar from "./MyNavBar";
 import CarouselComp from "./CarouselComp";
-import MainSection from "./MainSection";
+import SectionClub from "./SectionClub";
 
 const MainPage = () => {
   return (
@@ -14,7 +14,7 @@ const MainPage = () => {
         <Image src="/Baietta Web/BAIETTAWHITE.png" className="baiettaLogo" />
         <Button className="btnPrenota">PRENOTA ORA</Button>
       </div>
-      <MainSection />
+      <SectionClub />
     </div>
   );
 };
