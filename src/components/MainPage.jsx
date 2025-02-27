@@ -7,6 +7,10 @@ import SectionDownTheWave from "./SectionDownTheWave";
 import SectionWave from "./SectionWave";
 import SectionCorsi from "./SectionCorsi";
 import SectionNonSoloWake from "./SectionNonSoloWake";
+import GoogleMapComponent from "./GoogleMapComponent";
+import SectionReview from "./SectionReview";
+import FormMessage from "./FormMessage";
+import Footer from "./Footer";
 
 const MainPage = () => {
   return (
@@ -26,6 +30,10 @@ const MainPage = () => {
       <SectionSlidingCarousel />
       <SectionCorsi />
       <SectionNonSoloWake />
+      <SectionReview />
+      <GoogleMapComponent />
+      <FormMessage />
+      <Footer />
     </>
   );
 };
