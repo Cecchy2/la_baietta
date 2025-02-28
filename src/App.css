@@ -133,21 +133,14 @@ body {
   transform: scale(1.3);
 }
 
-.carousel-control-next {
-  right: -1%;
-}
-
-.carousel-control-prev {
-  left: -1%;
-}
-
 .centerContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 93vh;
-  background-color: rgb(242, 242, 244);
+  width: 100%;
+  background-color: rgb(0, 203, 169);
 }
 .baiettaLogo {
   z-index: 1000;
@@ -422,10 +415,11 @@ body {
 }
 .underFooter {
   background-color: rgb(0, 203, 169);
-  height: 35vh;
+  height: 40vh;
   margin-top: -185px;
 }
 .footerLogo {
+  width: 200px;
 }
 
 @media (max-width: 768px) {
@@ -480,6 +474,9 @@ body {
     left: 0;
     width: 100%;
     font-size: 1rem;
+  }
+  .underFooter {
+    height: 60vh;
   }
 }
 @media (max-width: 992px) {
