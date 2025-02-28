@@ -26,7 +26,7 @@ const MyNavBar = () => {
               className="d-inline-block align-top "
             />{" "}
           </div>
-          <Nav.Link href="#home" className="myNavLink " activeClassName="active">
+          <Nav.Link href="/" className="myNavLink " activeClassName="active">
             HOME
           </Nav.Link>
           <Nav.Link href="#link" className="myNavLink" activeClassName="active">

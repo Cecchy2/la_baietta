@@ -22,7 +22,7 @@ const Footer = () => {
               <Nav.Link href="">
                 <h3>Links Utili</h3>
               </Nav.Link>
-              <Nav.Link href="">Privacy Policy</Nav.Link>
+              <Nav.Link href="/privacy-policy">Privacy Policy</Nav.Link>
               <IoLogoInstagram size={40} />
               <IoLogoFacebook size={40} className="ms-4" />
             </Col>

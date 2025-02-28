@@ -10,6 +10,7 @@ import "@fontsource/metropolis/800.css";
 import "@fontsource/metropolis/900.css";
 
 import MainPage from "./components/MainPage";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </BrowserRouter>
     </>
