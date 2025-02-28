@@ -157,7 +157,7 @@ body {
 .btnPrenota {
   z-index: 1000;
   margin-top: 20px;
-  font-size: 3.5rem;
+  font-size: 2rem;
 
   background-color: rgb(43, 152, 146);
   border: none;
@@ -317,6 +317,7 @@ body {
   padding: 10px;
   font-size: 1.2rem;
   transition: opacity 0.3s ease-in-out;
+  font-family: "Chelsea Market", serif;
 }
 
 .image-container:hover {
@@ -419,6 +420,13 @@ body {
   top: -180px;
   z-index: -1000;
 }
+.underFooter {
+  background-color: rgb(0, 203, 169);
+  height: 35vh;
+  margin-top: -185px;
+}
+.footerLogo {
+}
 
 @media (max-width: 768px) {
   .myNavBar {
@@ -466,6 +474,12 @@ body {
     margin-top: 0;
     font-weight: 600;
     padding: 22px 36px;
+  }
+  .carouselText {
+    position: relative;
+    left: 0;
+    width: 100%;
+    font-size: 1rem;
   }
 }
 @media (max-width: 992px) {
