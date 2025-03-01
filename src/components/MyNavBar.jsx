@@ -30,6 +30,9 @@ const MyNavBar = () => {
             HOME
           </Nav.Link>
           <Nav.Link href="#link" className="myNavLink" activeClassName="active">
+            NEWS
+          </Nav.Link>
+          <Nav.Link href="/chi-siamo" className="myNavLink" activeClassName="active">
             CHI SIAMO
           </Nav.Link>
           <Nav.Link href="#link" className="myNavLink" activeClassName="active">
