@@ -12,6 +12,7 @@ import "@fontsource/metropolis/900.css";
 import MainPage from "./components/MainPage";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import ChiSiamoPage from "./components/ChiSiamoPage";
+import CorsiPage from "./components/CorsiPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/chi-siamo" element={<ChiSiamoPage />} />
+          <Route path="/corsi" element={<CorsiPage />} />
         </Routes>
       </BrowserRouter>
     </>

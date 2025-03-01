@@ -35,7 +35,7 @@ const MyNavBar = () => {
           <Nav.Link href="/chi-siamo" className="myNavLink" activeClassName="active">
             CHI SIAMO
           </Nav.Link>
-          <Nav.Link href="#link" className="myNavLink" activeClassName="active">
+          <Nav.Link href="/corsi" className="myNavLink" activeClassName="active">
             CORSI
           </Nav.Link>
           <Nav.Link href="#link" className="myNavLink" activeClassName="active">
