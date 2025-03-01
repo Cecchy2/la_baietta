@@ -4,11 +4,6 @@ const SectionCorsi = () => {
   return (
     <div className="mt-3 text-center bg-light">
       <Container className="mt-5">
-        <Row>
-          <Col>
-            <h1 className="colorBaietta mt-5 fw-bold display-4">I nostri corsi</h1>
-          </Col>
-        </Row>
         <Row className="mt-5">
           <Col md={4} className="corsiCol">
             <div className="image-container">

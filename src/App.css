@@ -432,7 +432,7 @@ body {
   bottom: 75px;
   left: 50px;
   z-index: 5000;
-  color: rgb(0, 203, 169);
+  color: rgb(217, 217, 217);
 }
 .fiswwLogo {
   position: absolute;
@@ -450,6 +450,15 @@ body {
 
 .navChiSiamoPage {
   background-color: rgb(0, 203, 169);
+}
+.instructorImg {
+  height: 450px;
+  object-fit: cover;
+  transition: filter 0.3s ease-in-out;
+}
+.instructorImg:hover {
+  cursor: pointer;
+  filter: brightness(0.6);
 }
 
 @media (max-width: 768px) {

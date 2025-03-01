@@ -1,4 +1,4 @@
-import { Button, Image } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import MyNavBar from "./MyNavBar";
 import CarouselComp from "./CarouselComp";
 
@@ -37,6 +37,15 @@ const MainPage = () => {
       <SectionWave />
       <SectionDownTheWave />
       <SectionSlidingCarousel />
+      <div className=" text-center ">
+        <Container className="mt-2">
+          <Row>
+            <Col>
+              <h1 className="colorBaietta mt-5 fw-bold display-4">I nostri corsi</h1>
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <SectionCorsi />
       <SectionNonSoloWake />
       <SectionReview />

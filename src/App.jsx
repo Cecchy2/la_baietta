@@ -13,6 +13,7 @@ import MainPage from "./components/MainPage";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import ChiSiamoPage from "./components/ChiSiamoPage";
 import CorsiPage from "./components/CorsiPage";
+import ContattiPage from "./components/ContattiPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/chi-siamo" element={<ChiSiamoPage />} />
           <Route path="/corsi" element={<CorsiPage />} />
+          <Route path="/contatti" element={<ContattiPage />} />
         </Routes>
       </BrowserRouter>
     </>
