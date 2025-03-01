@@ -16,7 +16,6 @@ body {
 }
 
 .navBarBord {
-  border-left: 1px solid #ffffff59; /* cambiato da border-start a border-left */
   display: flex;
   align-items: center;
 }
@@ -236,7 +235,7 @@ body {
 .marquee-item {
   display: inline-block;
   padding: 0 2rem;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #333;
   font-family: "Chelsea Market", serif;
   font-weight: 400;
@@ -427,6 +426,20 @@ body {
 }
 .privacyBG {
   background-color: rgba(239, 242, 242, 0.4);
+}
+.socialIcons {
+  position: absolute;
+  bottom: 75px;
+  left: 50px;
+  z-index: 5000;
+  color: rgb(0, 203, 169);
+}
+.fiswwLogo {
+  position: absolute;
+  top: 65px;
+  right: 24px;
+  z-index: 5000;
+  width: 115px;
 }
 
 @media (max-width: 768px) {
